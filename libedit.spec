@@ -1,11 +1,13 @@
+%global _date 20191211
+
 Name:		libedit
 Version:	3.1
-Release:	25
+Release:	26
 Summary:	The NetBSD Editline library
 License:	BSD
 URL:		http://www.thrysoee.dk/editline/
 
-Source0:	libedit-20170329-3.1.tar.gz
+Source0:	https://www.thrysoee.dk/editline/%{name}-%{_date}-%{version}.tar.gz
 BuildRequires:	gcc, ncurses-devel
 
 %description
@@ -28,7 +30,7 @@ Summary:	Help information for user
 Help information for user
 
 %prep
-%autosetup -n libedit-20170329-3.1
+%autosetup -n %{name}-%{_date}-%{version}
 
 # below for fixing issue of rpmlint
 iconv -f ISO8859-1 -t UTF-8 -o ChangeLog.utf-8 ChangeLog
@@ -67,5 +69,11 @@ sed -i "s/ -lncurses//" libedit.pc
 %exclude %{_mandir}/man3/history.3*
 
 %changelog
+* Tue Dec 31 2019 hanxinke<hanxinke@huawei.com> - 3.1-26
+- Type:enhancement
+- ID:NA
+- SUG:NA
+- DESC:update source package
+
 * Wed Sep 4 2019 openEuler Buildteam <buildteam@openeuler.org> - 3.1-25
 - Package init
