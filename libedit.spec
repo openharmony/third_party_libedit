@@ -2,7 +2,7 @@
 
 Name:		libedit
 Version:	3.1
-Release:	28
+Release:	29
 Summary:	The NetBSD Editline library
 License:	BSD
 URL:		http://www.thrysoee.dk/editline/
@@ -69,6 +69,12 @@ sed -i "s/ -lncurses//" libedit.pc
 %exclude %{_mandir}/man3/history.3*
 
 %changelog
+* Tue Oct 25 2022 yanglongkang<yanglongkang@h-partners.com> - 3.1-29
+- Type: bugfix
+- ID: NA
+- SUG: NA
+- DESC: rebuild for next release
+
 * Tue Nov 30 2021 panxiaohe<panxiaohe@huawei.com> - 3.1-28
 - Type:enhancement
 - ID:NA
