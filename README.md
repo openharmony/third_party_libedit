@@ -1,9 +1,3 @@
-Copyright (C) 1994, 1995, 1996, 1999, 2000, 2001, 2002 Free Software
-Foundation, Inc.
-
-   This file is free documentation; the Free Software Foundation gives
-unlimited permission to copy, distribute and modify it.
-
 Basic Installation
 ==================
 
@@ -226,4 +220,3 @@ operates.
 
 `configure' also accepts some other, not widely useful, options.  Run
 `configure --help' for more details.
-
