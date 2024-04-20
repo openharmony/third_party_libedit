@@ -8,6 +8,10 @@ License:	BSD
 URL:		http://www.thrysoee.dk/editline/
 
 Source0:	https://www.thrysoee.dk/editline/%{name}-%{_date}-%{version}.tar.gz
+
+# OHOS_LOCAL
+Patch0:       cross_compile_support_ohos.patch
+
 BuildRequires:	gcc, ncurses-devel
 
 %description
@@ -69,6 +73,13 @@ sed -i "s/ -lncurses//" libedit.pc
 %exclude %{_mandir}/man3/history.3*
 
 %changelog
+# OHOS_LOCAL begin
+* Fri Mar 15 2024 liujia178 <liujia178@huawei.com> - 3.1-oh-0
+- Type:enhancement
+- ID:NA
+- SUG:NA
+- DESC:cross-compilation capability for OHOS system support.
+# OHOS_LOCAL end
 * Tue Oct 25 2022 yanglongkang<yanglongkang@h-partners.com> - 3.1-29
 - Type: bugfix
 - ID: NA
