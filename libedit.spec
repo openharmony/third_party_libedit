@@ -2,7 +2,7 @@
 
 Name:		libedit
 Version:	3.1
-Release:	29
+Release:	31
 Summary:	The NetBSD Editline library
 License:	BSD
 URL:		http://www.thrysoee.dk/editline/
@@ -80,6 +80,17 @@ sed -i "s/ -lncurses//" libedit.pc
 - SUG:NA
 - DESC:cross-compilation capability for OHOS system support.
 # OHOS_LOCAL end
+
+* Tue Nov 14 2023 zhangruifang<zhangruifang1@h-partners.com> - 3.1-31
+- revert version to 20210910
+- compatibility issues exist between versions
+
+* Thu Oct 26 2023 zhangruifang<zhangruifang1@h-partners.com> - 3.1-30
+- Type:enhancement
+- ID:NA
+- SUG:NA
+- DESC:update version to 20221030
+
 * Tue Oct 25 2022 yanglongkang<yanglongkang@h-partners.com> - 3.1-29
 - Type: bugfix
 - ID: NA
