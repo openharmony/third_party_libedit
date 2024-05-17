@@ -1,11 +1,11 @@
 [
   {
-    "Name": "libedit",
+    "Name": "openEuler:libedit",
     "License": "BSD-3-Clause",
     "License File": "COPYING",
-    "Version Number": "3.1",
-    "Owner": "leixin19@huawei.com",
-    "Upstream URL": "http://www.thrysoee.dk/editline/",
+    "Version Number": "3.1-31.oe2203sp3",
+    "Owner": "liyiming13@huawei.com",
+    "Upstream URL": "https://repo.openeuler.org/openEuler-22.03-LTS-SP3/source/Packages/libedit-3.1-31.oe2203sp3.src.rpm",
     "Description": "Libedit is the automatic tool and libtoolized port of the NetBSD Editline library.It provides generic line editing, history, and markup functions similar to those in GNU Readline."
   }
 ]
