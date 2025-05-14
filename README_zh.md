@@ -23,7 +23,9 @@ libedit是一个提供通用行编辑、历史和分词功能的命令行编辑�
 - README.OpenSource             项目README.OpenSource文件
 - README.md                     英文说明
 - README_zh.md                  中文说明
-- src                           libedit源代码
+- libedit-20210910-3.1.tar.gz   libedit源码压缩tar包
+- libedit.spec                  上游更新记录说明
+- libedit.yaml                  yaml文件
 ```
 ## 编译与安装<a name="section137768191623"></a>
 
