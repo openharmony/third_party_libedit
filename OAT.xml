@@ -21,28 +21,11 @@
     <oatconfig>
     <licensefile>COPYING</licensefile>
         <filefilterlist>
-            <filefilter name="defaultPolicyFilter" desc="Filters for compatibility，license header policies">
-                <filteritem type="filename" name="COPYING|compile|configure|ChangeLog|configure.ac|depcomp|install-sh|INSTALL|missing||Makefile.am|THANKS" desc="文件不涉及license"/>
-                <filteritem type="filename" name="*.m4|config.*" desc="文件不涉及license"/>
-                <filteritem type="filepath" name="doc/mdoc2man.awk" desc="文件不涉及license"/>
-                <filteritem type="filepath" name="doc/.*.roff" desc="文件不涉及license"/>
-                <filteritem type="filepath" name="src/.*" desc="文件不涉及license"/>
-                <filteritem type="filepath" name="examples/fileman.c" desc="文件不涉及license"/>
-                <filteritem type="filepath" name="examples/fuzz1.c" desc="文件不涉及license"/>
-                <filteritem type="filepath" name="examples/tc1.c" desc="文件不涉及license"/>
-                <filteritem type="filepath" name="examples/wtc1.c" desc="文件不涉及license"/>
-                <filteritem type="filename" name="libedit.spec" desc="spec文件不涉及license"/>
+            <filefilter name="binaryFileTypePolicyFilter" desc="Filters for binary file policies">
+                <filteritem type="filename" name="libedit-20210910-3.1.tar.gz" desc="源码tar包来源于上游不涉及扫描"/>
             </filefilter>
-            <filefilter name="copyrightPolicyFilter" desc="Filters for copyright header policies">
-                <filteritem type="filename" name="configure|configure.ac|compile|depcomp|install-sh|missing|Makefile.am|THANKS" desc="InvalidCopyright file"/>
-                <filteritem type="filename" name="*.m4|config.*" desc="InvalidCopyright file"/>
-                <filteritem type="filepath" name="doc/mdoc2man.awk" desc="文件不涉及license"/>
-                <filteritem type="filepath" name="doc/.*.roff" desc="InvalidCopyright file"/>
-                <filteritem type="filepath" name="src/.*" desc="InvalidCopyright file"/>
-                <filteritem type="filepath" name="examples/fileman.c" desc="InvalidCopyright file"/>
-                <filteritem type="filepath" name="examples/fuzz1.c" desc="InvalidCopyright file"/>
-                <filteritem type="filepath" name="examples/tc1.c" desc="InvalidCopyright file"/>
-                <filteritem type="filepath" name="examples/wtc1.c" desc="InvalidCopyright file"/>
+            <filefilter name="defaultPolicyFilter" desc="Filters for compatibility，license header policies">
+                <filteritem type="filename" name="libedit.spec" desc="spec文件不涉及license"/>
             </filefilter>
         </filefilterlist>
     </oatconfig>
