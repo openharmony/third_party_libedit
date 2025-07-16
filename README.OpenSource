@@ -1,9 +1,9 @@
 [
   {
-    "Name": "libedit",
+    "Name": "Editline Library - libedit",
     "License": "BSD-3-Clause",
     "License File": "COPYING",
-    "Version Number": "20250104-3.1",
+    "Version Number": "3.1-20250104",
     "Owner": "liyiming13@huawei.com",
     "Upstream URL": "https://www.thrysoee.dk/editline/libedit-20250104-3.1.tar.gz",
     "Description": "Libedit is the automatic tool and libtoolized port of the NetBSD Editline library.It provides generic line editing, history, and markup functions similar to those in GNU Readline."
